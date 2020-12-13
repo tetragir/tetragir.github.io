@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article>
+    <h2 class="post-header">{{ page.title }}</h2>
+    <p class="post-meta">{{ page.date | date: site.date_format }}</p>
+    {% if page.type == "it"%}
+    <p class="post-disclaimer">Disclaimer: this post was created on {{ page.date | date: site.date_format }} for {{ page.platform }}, it might not work on other platforms or versions.</p>
+    {% endif %}
+    <div >
+    {{ content }}
+    </div>
+</article>

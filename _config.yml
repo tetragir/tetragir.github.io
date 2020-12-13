@@ -1,0 +1,15 @@
+title: tetragir.com
+baseurl: "https://tetragir.com"
+permalink: /:categories/:title.html
+url: "/"
+
+sass:
+  style: compressed
+
+date_format: "%m-%d-%Y"
+
+markdown: kramdown
+
+google_analytics: 
+disqus_shortname:
+

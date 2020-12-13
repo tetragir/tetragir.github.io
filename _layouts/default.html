@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/w3.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto|Inconsolata" rel="stylesheet">
+    <title>{{ site.title }}</title>
+    <link rel="alternate" type="application/rss+xml" title="tetragir.com RSS" href="/feed.xml">
+    <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/favicon.ico" />
+</head>
+<body>
+    <header class="site-header w3-large">
+	<nav class="site-nav w3-bar w3-cyan w3-text-white">
+	             <a href="{{ site.baseurl }}/index.html" class="{% if page.url == '/index.html' %}active{% endif %} w3-bar-item w3-button w3-mobile  w3-hover-cyan" >{{ site.title }}</a>
+                <a href="{{ site.baseurl }}/about/" class="{% if page.url == '/about/' %}active{% endif %} w3-bar-item w3-button w3-mobile w3-right w3-hover-dark-grey" style="width:25%">About</a>
+                <a href="{{ site.baseurl }}/index.html" class="{% if page.url == '/index.html' %}active{% endif %} w3-bar-item w3-button w3-mobile w3-right  w3-hover-dark-grey" style="width:25%">All posts</a>
+	</nav>
+    </header>
+    <main class="Site-content">
+        {{ content }} 
+    </main>
+    <footer class="w3-bar w3-cyan w3-text-white">
+	<p class="w3-bar-item" style="width:25%"></p> 
+	<p class="w3-bar-item" style="width:50%"><a href="https://twitter.com/tetragir">Twitter</a> | <a href="https://keybase.io/tetragir">Keybase</a> | These articles are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. </p>
+	<p class="w3-bar-item" style="width:25%"></p>
+    </footer>
+</body>
+</html>

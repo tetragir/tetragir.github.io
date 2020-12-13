@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/tetragir
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tetragir.com
+  * I am tetragir (https://keybase.io/tetragir) on keybase.
+  * I have a public key ASBevx80wsptz3mNY8R1NgvCYwIdwDqEYuwGQbTQbZOSPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d526cd9f51186853ba62b3548791f37b6f56c1a1475c9a0ab7bcea581f88e65f0a",
+      "host": "keybase.io",
+      "kid": "01205ebf1f34c2ca6dcf798d63c475360bc263021dc03a8462ec0641b4d06d93923f0a",
+      "uid": "7d41ac5be679079d99949e3fb6c71419",
+      "username": "tetragir"
+    },
+    "merkle_root": {
+      "ctime": 1529953471,
+      "hash": "25fe95dbe4cf7eb178a7eb7f16ee5495f3192d2e3d847510345604dd0ab58e93fcc074d06758b8e6524341f5b2873b4bf2ccc9fa58eda0083fb41b9f69877b37",
+      "hash_meta": "e56528e44b0814c5ce6af9224f25035789d43a948d70423a0ae46c6a8cd8fb10",
+      "seqno": 3140622
+    },
+    "service": {
+      "entropy": "SlnLBVCIV3HPcE1Wbud8hAK5",
+      "hostname": "tetragir.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.1.0"
+  },
+  "ctime": 1529953477,
+  "expire_in": 504576000,
+  "prev": "f392acecd56a1f38910c438228d84752c28643eecd9d8cb3d914bf432a6ad744",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXr8fNMLKbc95jWPEdTYLwmMCHcA6hGLsBkG00G2Tkj8Kp3BheWxvYWTESpcCGMQg85Ks7NVqHziRDEOCKNhHUsKGQ+7NnYyz2RS/Qypq10TEIEO1I42moe7D18GBp5PmQm6k41ucbv+N1BtnoayyFgybAgHCo3NpZ8RArWi4Dx1JGrTQCCzz3tDwreg/FPRFaF3oTgEfxOLsnD5z/s+grAu0zO/kEPcQt0DHxsUpw6cfOK2mVOvUc/u8DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIEezVutDzANkcxn4jeSY1GBhMdysKQdjtt/e7sPQAQNo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tetragir
+
+==================================================================
+

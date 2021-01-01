@@ -20,7 +20,7 @@ Rundeck and Ansible allowed me to automate the building of the OS and packages w
 
 Another aspect is packages. I not only specify custom options for compiling a couple of packages, but only the quarterly branch is available for aarch64. For some time I used my Raspberry Pi as is, with no OS upgrades (as it's in a different country and traveling is not really possible nowadays) and using quarterly packages.
 
-## Automation software
+## Automation
 ### Rundeck
 Rundeck is an automation software that allows administrators to create pre-defined workflows and allow access to these workflows to different parts of the organization. A good example would be a process of adding a new user and their SSH key to all of the organization's servers. Traditionally an admin would either log in to all servers, create the user and paste SSH key or use some jenky script that does this. Rundeck enables the admin to create a workflow for this process to speed up this deployment or even give access to this workflow to HR.
 

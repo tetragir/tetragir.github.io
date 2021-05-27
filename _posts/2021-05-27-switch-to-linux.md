@@ -29,13 +29,13 @@ Lately I focus a bit less on my own home-IT, as I have other priorities too. Aft
 
 ## The Switch
 
-Then came Linux and Docker. Or better said, I tried them out. They were around for sime time now... So after doing some experiments, we decided to just use Linux (in this case CentOS) and Docker on the NAS. The setup was fairly easy, may be because I use CentOS at works as well. I opted for CentOS Stream, I know the controversy behind it, but it fits my needs so why not. I was thinking about Fedora as well, but the fact that ZFS support is limited (as new kernels are released farily often) made me sure to stick with CentOS.
+Then came Linux and Docker. Or better said, I tried them out. They have been around for some time now... So after doing some experiments, we decided to just use Linux (in this case CentOS) and Docker on the NAS. The setup was fairly easy, may be because I use CentOS at work as well. I opted for CentOS Stream, I know the controversy behind it, but it fits my needs so why not. I was thinking about Fedora as well, but the fact that ZFS support is limited (as new kernels are released farily often) made me sure to stick with CentOS.
 
-Even though I switched to Linux, there are a couple things I wanted to keep using. Most important is ZFS. Fortunately ZFS On Linux picked up the pace in the last couple of years, installing ZFS on CentOS was as easy as adding a new repository and installing the package. There was some complication installing the kABI package, maybe because I'm running Stream, but the DKMS package seems to be working now.
+Even though I switched to Linux, there are a couple things I wanted to keep using. Most important is ZFS. Fortunately ZFS on Linux picked up the pace in the last couple of years, installing ZFS on CentOS was as easy as adding a new repository and installing the package. There was some complication installing the kABI package, maybe because I'm running Stream, but the DKMS package seems to be working now.
 
 ## Summary
 
-All in all, I think this was change necessary. We use quite a few applications and I like the idea how these applications are spearated from each other and the OS. It's really usefuly how it's possible to Docker volumes to other hosts and just start the container there like nothing happened.
+All in all, I think this change was necessary. We use quite a few applications and I like the idea how these applications are separated from each other and the OS. It's really usefuly how it's possible to Docker volumes to other hosts and just start the container there like nothing happened.
 
 A couple applications we use:
 - Nextcloud

@@ -27,7 +27,7 @@ This solution worked fine, until I realized that I needed some custom options fo
 
 Lately I focus a bit less on my own home-IT, as I have other priorities too. After some discussions with the other sysadmin in-house (my lovely wife), we first decided to opt for FreeNAS (again) and use services in Jails. However after some research, it turned out that there are only a very limited number of pre-built Jails for FreeNAS and for a lot of services we need, we again need to build them manually and then maintain it.
 
-# The Switch
+## The Switch
 
 Then came Linux and Docker. Or better said, I tried them out. They were around for sime time now... So after doing some experiments, we decided to just use Linux (in this case CentOS) and Docker on the NAS. The setup was fairly easy, may be because I use CentOS at works as well. I opted for CentOS Stream, I know the controversy behind it, but it fits my needs so why not. I was thinking about Fedora as well, but the fact that ZFS support is limited (as new kernels are released farily often) made me sure to stick with CentOS.
 

@@ -1,7 +1,7 @@
 ---
 layout:	post
 title:	Why I switched from FreeBSD to Linux on my NAS
-date: 2021-05-15 16:00
+date: 2021-05-15 08:00
 category: life
 tags: life blog
 type: life

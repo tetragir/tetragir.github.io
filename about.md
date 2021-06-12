@@ -4,7 +4,7 @@ title:     About
 permalink: /about/
 ---
 
-Welcome to the tetragir.com website! As you surely noticed, this is a geek blog. 
+Welcome to the tetragir.com website!
 
 I mostly like to write about FreeBSD, Cisco networking, and Linux. All the articles you find here were written by me, to the best of my knowledge.
 

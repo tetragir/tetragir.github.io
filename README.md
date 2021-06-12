@@ -1,3 +1,3 @@
 # tetragir-com
 
-tetragir.com website
+This is the repository where the tetragir.com site is stored.

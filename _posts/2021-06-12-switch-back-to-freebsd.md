@@ -1,7 +1,7 @@
 ---
 layout:	post
 title:Why I switched back from Linux to FreeBSD on my NAS
-date: 2021-06-12 12:00
+date: 2021-06-12 11:15
 category: IT
 tags: freebsd rundeck ansible docker linux
 type: it

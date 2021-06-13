@@ -28,15 +28,15 @@ These are important software, like DNS. All software defined here will have to r
 ### Nonessential
 Not so important software for which it's fine for it to go down and stay like that. As my home network is pretty small, almost all all software fall into this category. Still, there services will be replicated and they will be able to be brought up on my backup server.
 
-#### Reproducable
+### Reproducable
 These services are either fully set up by automation or are there for experimentation. Because of this, no redundancy will be set up.
 
 ## Monitoring
 At some point, I will install some monitoring solution. Under this section, I will define what aspects of the given service will be monitored. For example for a DNS Service, the following items come to my mind:
-- The DNS Jail is up (prove by ping)
-- If the DNS Service is running (prove by checking if the service is running inside the jail)
-- If the DNS Service resolves internal hostnames (prove by resolving a hostname and compare with a pre-defined answer)
-- If the DNS Serviuce resolves external hostnames (proving is the same as the previous point)
+* The DNS Jail is up (prove by ping)
+* If the DNS Service is running (prove by checking if the service is running inside the jail)
+* If the DNS Service resolves internal hostnames (prove by resolving a hostname and compare with a pre-defined answer)
+* If the DNS Serviuce resolves external hostnames (proving is the same as the previous point)
 
 Defining monitoring goals has the advantage that it's service-independent. It doesn't matter if the monitoring software will be Icinga or Prometheus, the previous test will have to be checked by them.
 

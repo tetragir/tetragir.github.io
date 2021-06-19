@@ -5,7 +5,7 @@ date: 2021-06-19 12:40
 category: nasbuild
 tags: freebsd ansible concept docker
 type: it
-platform: FreeBSD 13.0; Ansible 2.11.1
+platform: FreeBSD 13.0 and Ansible 2.11.1
 ---
 
 The first step on my NASBuild is to install the host OS and set it up. For that, I will create 2 Ansible roles: *base* and *phy*. Base will be assign to all instances, let it be a physical machine, Jail or VM. Phy will be assigned to physical host machines and will contain tasks that will only be applicable to those. I will create the base at another time, as I want to focus only on the settings that are needed to be done on a host.
@@ -51,7 +51,7 @@ Before starting executing Ansible playbooks, it needs to be configured. Ansible 
 **[defaults] section**
 
 * ```forks = 40``` => Connect up to 40 hosts at the same time. I don't expect I'll have more than 40 hosts.
-* ```ansible_managed = "#### Managed by Ansible ####"``` => So that I can use ```{{ ansible_managed }}``` in templates
+* ```ansible_managed = "#### Managed by Ansible ####"``` => So that I can use *{{ ansible_managed }}* in templates
 
 **[privilege_escalation] section**
 

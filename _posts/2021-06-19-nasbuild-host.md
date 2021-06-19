@@ -51,7 +51,7 @@ Before starting executing Ansible playbooks, it needs to be configured. Ansible 
 **[defaults] section**
 
 * ```forks = 40``` => Connect up to 40 hosts at the same time. I don't expect I'll have more than 40 hosts.
-* ```ansible_managed = "#### Managed by Ansible ####"``` => So that I can use *{{ ansible_managed }}* in templates
+* ```ansible_managed = "#### Managed by Ansible ####"``` => So that I can use the **ansible_managed** variable in templates
 
 **[privilege_escalation] section**
 

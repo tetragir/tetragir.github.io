@@ -1,7 +1,7 @@
 title: tetragir.com
 baseurl: "https://tetragir.com"
 permalink: /:categories/:title.html
-url: "/"
+url: "https://tetragir.com"
 
 sass:
   style: compressed

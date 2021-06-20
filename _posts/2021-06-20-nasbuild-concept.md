@@ -4,7 +4,7 @@ title: NASBuild - The concept
 date: 2021-06-20 14:15
 category: nasbuild
 tags: freebsd ansible concept docker
-type: it
+type: life
 ---
 
 So now that I decided to build my Home NAS on FreeBSD, I got the define exactly what is it I want. It felt weird letting out the control from my hands using Docker, so that is one thing I would like to get back. To that end, I will configure all services and applications myself. Even though Ansible Galaxy exists, I will write all of my playbooks myself. This way I will have full control over what's happening and of course I will (be forced to) really get to know how to configure the given software.
@@ -17,7 +17,7 @@ Before just getting to it and start installing software, I will define some conc
 # Service definitions
 
 ## Redundacy
-Some software is important to be available at all times, some are not. I define 2 different redundancy levels for my infrastructure:
+Some software is important to be available at all times, some are not. I define 3 different redundancy levels for my infrastructure:
 * Essential
 * Nonessential
 * Reproducable

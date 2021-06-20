@@ -1,7 +1,7 @@
 ---
 layout:	post
 title: NASBuild - The concept
-date: YYYY-MM-DD HH:MM
+date: 2021-06-20 14:15
 category: nasbuild
 tags: freebsd ansible concept docker
 type: it

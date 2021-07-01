@@ -10,8 +10,6 @@ platform: FreeBSD 13.0 and Ansible 2.11.1
 
 The first step on my NASBuild is to install the host OS and set it up. For that, I will create 2 Ansible roles: *base* and *phy*. Base will be assign to all instances, let it be a physical machine, Jail or VM. Phy will be assigned to physical host machines and will contain tasks that will only be applicable to those. I will create the base at another time, as I want to focus only on the settings that are needed to be done on a host.
 
-All of the tasks and roles here are published to [GitHub](https://github.com/tetragir/nasbuild) so it might be useful for someone else too. Please note that as of writing this post, the inventory contains IP addresses as my DNS is not set up yet. Once I have DNS, I will replace the IP addresses with hostnames.
-
 * TOC
 {:toc}
 
@@ -43,7 +41,7 @@ root
 
 # Automated setup
 
-From this point on, the host will be configured with Ansible. For the settings below, I created a role called "phy". The role on GitHub: [https://github.com/tetragir/nasbuild/tree/main/roles/phy](https://github.com/tetragir/nasbuild/tree/main/roles/phy)
+From this point on, the host will be configured with Ansible. For the settings below, I created a role called "phy".
 
 ## ansible.conf
 Before starting executing Ansible playbooks, it needs to be configured. Ansible needs to be told to use doas instead of sudo (the default). These settings can be assigned to hosts as variables, but it will be the same for all of my hosts so I add them to ansible.conf. I also add a couple more settings to the configuration file. The most important settings (for me) are the following:
